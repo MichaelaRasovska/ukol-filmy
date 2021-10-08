@@ -11,8 +11,8 @@ export const Movie = (props) => (
         <div className="director">Režisér: {props.director}</div>
         <div className="genre">Žánr:{props.genre}</div>
       </div>
-      <div className="poster">
-        <img src={`../../assets/${props.poster}`}></img>
+      <div>
+        <img className="poster" src={`../../assets/${props.poster}`}></img>
       </div>
     </div>
   </>
