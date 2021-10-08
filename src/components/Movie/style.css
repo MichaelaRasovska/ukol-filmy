@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  border: 1px grey solid;
+  background-color: whitesmoke;
+  margin: 1px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.poster {
+  width: 90px;
+  height: auto;
+  padding: 2px;
+}

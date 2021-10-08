@@ -2,10 +2,13 @@
 
 * {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
+  background-color: lightgrey;
 }
 
 .logo {
