@@ -5,9 +5,10 @@
   height: auto;
   border: 1px grey solid;
   background-color: whitesmoke;
-  margin: 1px;
-  padding: 20px;
+  margin: 5px;
+  padding: 10px;
   font-size: small;
+  box-shadow: 0 0 5px #444;
 }
 
 .info-container {
