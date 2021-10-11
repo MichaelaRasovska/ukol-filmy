@@ -9,7 +9,7 @@ import { MovieList } from './components/MovieList';
 const App = () => (
   <>
     <Header />
-    <MovieList />
+    <MovieList movies={movies} />
   </>
 );
 
